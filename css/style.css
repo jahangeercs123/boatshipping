@@ -1,0 +1,530 @@
+/*.......global css start........*/
+html {
+ scroll-behavior: smooth;
+}
+* {
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+ margin: 0;
+ padding: 0;
+}
+.container {
+ max-width: 1145px;
+ margin: 0 auto;
+ padding: 0px;
+}
+
+img,a,h1,h2,h3,h4,h5,h6,li,p,span,ul {
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ list-style-type: none;
+}
+p {
+ color: #7f8c8d;
+ font-size: 20px;
+ font-family: 'FiraSans-LightItalic';
+}
+h1 {
+ font-size: 50px;
+ color: #fff;
+ font-family: 'Montserrat-Bold';
+ line-height: 47px;
+}
+h2 {
+ font-size: 22px;
+ font-family: 'Montserrat-Bold';
+ color: #383939;
+ text-transform: uppercase;
+}
+h3 {
+ font-size: 20px;
+ font-family: 'Montserrat-Regular';
+}
+/*......global css end.....*/
+
+/* ... css for header ...*/
+.container-fluid {
+ padding: 0px;
+ max-width: 1535px;
+}
+header ul {
+ margin: auto;
+ width: 100%;
+ max-width: 56%;
+ justify-content: space-between;
+ background-color: transparent;
+}
+nav a {
+ padding: 5px 9px 5px;
+}
+.navbar-brand {
+ margin-right: 0px;
+}
+.get-qute-btn a {
+ background-color: #1abc9c;
+ padding: 9px 15px 9px;
+ color: #fff;
+ font-size: 20px;
+ font-family: 'Montserrat-Regular';
+ line-height: 26px;
+}
+.navbar-expand-lg {
+ padding: 11px 20px 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+ font-size: 20px;
+ padding: 0px;
+ color: #7f8c8d;
+ font-family: 'Montserrat-Regular';
+ line-height: 26px;
+}
+.navbar-light .navbar-brand {
+ padding: 7px 6px 7px;
+}
+/* ... css for banner ... */
+.banner {
+ background-image: url('../images/banner-bg.png');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 165px 0px 167px;		
+}
+.banner-heading-wrapper {
+max-width: 760px;
+padding: 0px;
+}
+.banner-heading-wrapper h1 {
+ margin-bottom: 19px;
+}
+.banner-heading-wrapper span {
+ font-size: 30px;
+ color: #fff;
+ line-height: 36px;
+ margin-bottom: 57px;
+ font-family: 'FiraSans-LightItalic';
+ display: block;
+}
+.banner-heading-wrapper a {
+ display: inline-block;
+ color: #fff;
+ font-size: 22px;
+ font-family: 'Montserrat-Bold';
+ background-color: #1abc9c;
+ padding: 13px 44px 13px;
+ text-transform: uppercase;
+}
+/* css end for banner */
+/* css start for shappig company */
+.boat-shipping {
+ padding: 100px 0px 100px;
+}
+.boat-shipping .shipping-text-outer {
+ max-width: 905px;
+ padding: 0px;	
+}
+.shipping-text-outer h2 {
+ line-height: 27px;
+ margin-bottom: 12px;
+}
+.shipping-text-outer p {
+ margin-bottom: 18px;
+ line-height: 27px;
+}
+/* css end for shappig company */
+/* css start for moving boat */
+.moving-boat {
+ background-image: url('../images/moving-boat.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.moving-boat-descraption {
+ padding: 120px 20px 100px;
+}
+.moving-boat-descraption h2 {		
+ line-height: 25px;
+ margin-bottom: 25px;
+}
+.moving-boat-descraption p {
+ line-height: 26px;
+ margin-bottom: 24px;
+}
+.boat-audit span {
+ display: block;
+ line-height: 42px;
+}
+.boat-audit :first-child {
+ font-size: 34px;
+ font-family: 'FiraSans-LightItalic';
+ color: #7f8c8d;
+}
+.boat-audit :last-child {
+ font-size: #383939;
+ font-family: 'Montserrat-Bold';
+ font-size: 15px;
+ line-height: 21px;
+}
+.ship-gallary {
+ padding: 100px 0px 100px;
+}
+.about-gallary h2 {
+ margin-bottom: 20px;
+ line-height: 32px;
+}
+.about-gallary p {
+ margin-bottom: 20px;
+ line-height: 32px;
+}
+.gallary-item {
+ position: relative;
+ cursor: pointer;
+ padding: 0px;
+ transition: all 0.3s ease-in-out;
+ margin-bottom: 22px;	
+}
+.gallary-item:hover .overlay {
+ opacity: 0;
+ transform: translateY(0);
+}
+.gallary-item img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ transition: all 0.3s ease-in-out;
+}
+.overlay {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ color: #fff;
+ background-color: #1abc9c;
+ opacity: .8;
+ transition: all .8s ease-in-out;
+}
+.overlay h3 {
+ margin: 0;
+ text-align: center;
+}
+/* ... css start for chose us.... */
+.our-choose-us {
+ background-image: url('../images/bg.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 100px 0px 100px;
+}
+.number-wraper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 94px;
+ height: 46px;
+ background-color: #d7dede;
+ border-radius: 50%;
+}
+.our-choose-us h2 {
+ margin-bottom: 10;
+}
+.number-wraper span {
+ color: #7f8c8d;
+ font-size: 30px;
+ font-family: 'Montserrat-Bold';
+ line-height: 36px;
+}
+.total-wraper span {
+ font-size: 16px;
+ font-family: 'Montserrat-Bold';
+ color: #7f8c8d;
+ text-transform: capitalize;
+}
+.counting-descraption p {
+ font-size: 14px;
+}
+.choosing-item {
+ gap: 19px;
+}
+.counting-wraper {
+ display: flex;
+ align-items: center;
+ gap: 14px;
+ max-width: 130px;
+ width: 100%;
+}
+/* ...company-strenght... */
+.company-strenght {
+ padding: 100px 0px 100px;
+}
+.stringth-heading img {
+ margin-bottom: 30px;
+}
+.company-strenght h2 {
+ margin-bottom: 30px;
+ line-height: 28px;
+}
+.company-strenght p {
+ margin-bottom: 70px;
+ line-height: 28px;
+}
+.strenght-item p {
+ font-size: 14px;
+ font-family: 'FiraSans-Regular.';
+}
+.company-strenght .strenght-item h3 {
+ margin-bottom: 20px;
+ text-transform: uppercase;
+ line-height: 26px;
+}
+.strenght-item img {
+ margin-bottom: 20px;
+}
+/*.... footer... */
+footer {
+ background-image: url('../images/footer-bg.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 70px 40px 35px;
+}
+footer :first-child.footer-item img {
+ margin-bottom: 10px;
+}
+footer :first-child.footer-item li,a {
+ color: #dadadb;
+ font-size: 14px;
+ line-height: 22px;
+ margin-bottom: 10px;	
+ transition: .5 ease all; 
+}
+footer :first-child.footer-item a:hover {
+ color: #1abc9c;
+}
+footer .footer-item h2 {
+ font-size: 18px;
+ color: #dadadb;
+}
+footer .footer-item ul li {
+ color: #dadadb;
+ font-size: 12px;
+ line-height: 32px;
+ font-family: 'FiraSans-Regular';
+}
+footer .footer-right-links {
+ margin: 10px 0px 10px;
+ text-align: center;
+}
+footer .footer-right-links a {
+ color: #fff;
+ font-size: 14px;
+ font-family: 'FiraSans-Regular';
+}
+.strenght-item{
+ padding: 0px;
+}
+.stringth-heading {
+ padding: 0px;
+}
+.chose-us-heading {
+ padding: 0px;
+}
+.footer-item {
+ padding: 0px;
+}
+.our-choose-us .container{
+padding: 0px 40px 0px;	
+}
+.boat-shipping .container{
+	padding: 0px 18px 0px;
+}
+.company-strenght .container{
+	padding: 80px 20px 80px;
+}
+/* mobile view are start */
+@media (max-width: 1180px) 
+ {
+header .container {
+ max-width: 1150px;
+ padding: 0px 20px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+ font-size: 16px;
+ line-height: 22px;
+}
+.get-qute-btn a {
+ padding: 9px 15px 9px;
+ line-height: 24px;
+}
+header ul {
+ max-width: 60%;
+}
+ }
+ /* ................992.............. */
+
+@media (max-width: 992px)
+ {
+.banner {
+ padding: 150px 0px 130px;
+}
+.container-fluid {
+	padding: 0px 20px 0px;
+}
+.banner-heading-wrapper h1 {
+ margin-bottom: 20px;
+ font-size: 45px;
+ line-height: 51px;
+}
+header ul {
+ margin: 0px;
+ max-width: 100%;
+}
+.navbar-nav .nav-link {
+ margin-right: 10;
+ margin-left: 10;
+}
+.nav-ul-outer {
+ padding-left: 20px;
+ background-color: #1abc9c;
+ padding-bottom: 20px;
+}
+.get-qute-btn a {
+ background-color: #1abc9c;
+ padding: 0px;
+ font-size: 18px;
+ color: #fff;
+}
+.navbar-brand {
+ padding: 0px;
+ margin: 0px;
+}
+.nav-outer {
+ padding: 10px 20px 10px;
+ background-color: #767b7a;
+}
+.navbar-light .navbar-nav .nav-link {
+ color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+ font-size: 18px;
+ line-height: 24px;
+ padding: 10px 0px 10px;
+}
+.navbar-light .navbar-toggler {
+ border: 2.5px solid;
+ border-color: #1abc9c;
+}
+.navbar-light .navbar-brand {
+ padding: 0px;
+}
+header .container {
+ padding: 0px 0px 0px;
+}
+.navbar-expand-lg {
+ padding: 0px 0px 0px;
+}
+header {
+ position: absolute;
+ width: 100%;
+}
+.banner-heading-wrapper span {
+ margin-bottom: 50px;
+}
+.banner-heading-wrapper a {
+ font-size: 18px;
+ padding: 12px 34px 12px;
+}
+.boat-shipping {
+ padding: 80px 0px 80px;
+}
+.moving-boat-descraption {
+ padding: 100px 20px 90px;
+}
+.ship-gallary {
+ padding: 80px 30px 80px;
+}
+.our-choose-us {
+ padding: 90px 30px 90px;
+}
+.company-strenght {
+ padding: 80px 20px 80px;
+}
+.company-strenght p {
+ margin-bottom: 50px;
+}
+.company-strenght p {
+ margin-bottom: 45px;
+}
+footer {
+ padding: 60px 20px 30px; 
+}
+}
+@media (max-width: 768px){
+	.container{}
+	.our-choose-us {
+		padding: 50px 30px 50px;
+	}
+	.boat-shipping {
+		padding: 60px 20px 60px;
+	}
+	h3 {
+		font-size: 14px;
+	}
+}
+@media (max-width: 576px){	
+.banner-heading-wrapper {
+ max-width: 455px;
+}
+.banner-heading-wrapper h1 {
+ margin-bottom: 10px;
+ font-size: 30px;
+}
+.banner-heading-wrapper span {
+ margin-bottom: 25px;
+}
+.our-choose-us .container{
+ padding: 0px 20px 0px;
+}
+.banner-heading-wrapper span {
+ font-size: 22px;
+}
+.banner-heading-wrapper a {
+  font-size: 14px;
+  padding: 10px 24px 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+ font-size: 14px;
+ line-height: 24px;
+}
+.get-qute-btn a {
+ background-color: #1abc9c;
+ font-size: 16px;
+}
+h3 {
+ font-size: 14px;
+}
+.banner {
+padding: 100px 20px 80px;
+}
+.banner-heading-wrapper h1{
+font-size: 24px;
+}
+.banner-heading-wrapper span {
+margin-bottom: 10px;
+}
+.company-strenght {
+padding: 40px 20px 40px;
+}
+.company-strenght .container{
+padding: 0px 20px 0px;
+}
+.stringth-heading img {
+    margin-bottom: 20px;
+}
+.company-strenght h2 {
+
+}
+}
